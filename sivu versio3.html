@@ -7,6 +7,7 @@
 <style>
 div.container {
     width: 100 
+    width: 100%
     border: 100%
 }
 body  {
@@ -28,6 +29,12 @@ nav {
     padding: 1em;
 }
 
+@media only screen and (max-width: 500px) {
+    nav {
+      float: center;
+    }
+}
+
 }
    
 nav ul a {
@@ -35,12 +42,10 @@ nav ul a {
 }
 
 article {
-    margin-left: 170px;
     border-left: 1px black;
     padding: 1em;
     overflow: hidden;
 } 
-h1 
 { 
 	text-shadow: 2px 2px 7px white; 
 	} 
@@ -85,10 +90,13 @@ h1
 	<p>Ravintola Vittoria sijaitsee Turun sydämessä ja tarjoaa perinteistä italialaista ruokaa kaikenikäisille.</p>
 	<p>Henkilökuntamme edustaa rentoutta ja ystävällisyyttä ja kokkimme luovat mahtavia annoksia tuoreista aineksista. </p>
 	<p>Toivotamme teidät tervetulleiksi maistamaan maukkaita annoksiamme sekä viinejämme suoraan Italian viinitarhoilta. </p>
+	<h2>Tietoa meistä</h2>
+	<p>Ravintola Vittoria sijaitsee Turun sydämessä ja tarjoaa </p> <p> perinteistä italialaista ruokaa kaikenikäisille.</p>
+	<p>Henkilökuntamme edustaa rentoutta ja ystävällisyyttä ja kokkimme  </p> <p>luovat mahtavia annoksia tuoreista aineksista. </p>
+	<p>Toivotamme teidät tervetulleiksi maistamaan maukkaita annoksiamme </p> <p> sekä viinejämme suoraan Italian viinitarhoilta. </p>
 </article>
 
 <article>
-<h2 id="C2">Ruokalista</h2>
 <h3> Alkuruoat </h3>
  
  
